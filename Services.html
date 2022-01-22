@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column  {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column  {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+  <h2>Our Services</h2>
+<p> We have all the resources required to implement the school management system successfully, ensuring a complete system fit. We focus on providing timely and professional IT support to manage problems and concerns.</p>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+  <h2>Training</h2>
+  <p>We have designed structured, hands-on training programs to meet the specific learning needs of different groups of users. User training is organized into a series of training sessions carefully designed to meet the learning needs of individual users. </p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+  <h2>Support</h2>
+  <p>We focus on providing unique, cutting-edge technical support. With our technical expertise, coupled with a strong appreciation for your target audience, we strive to provide outstanding support to our clients. We provide clients with end-to-end support services and deliver superior customer experience by providing seamless technical support.</p>
+  </div>
+  <div class="column" style="background-color:#ccc;">
+  <h2>Upgrade</h2>
+  <p> Each update offers performance improvements with the optimization of existing functionality, the implementation of fixes, and the addition of new functionality. Regular updates/upgrades also ensure that the software is compatible with the hardware and software platforms.</p>
+  </div>
+  <div class="column" style="background-color:#ddd;">
+  <h2>Web Solutions</h2>
+  <p>We offer high impact web design and development solutions crafted specially to cater the explicit needs of the educational institutes. Our dedicated SEO team enables clients to generate traffic and quality website to get higher returns on their investment. Our Managed Hosting Services is built with the focus on the business and technology needs of the customer. This means, your mission-critical sites are well cared by our team.</p>
+  </div>
+</div>
+
+</body>
+</html>
